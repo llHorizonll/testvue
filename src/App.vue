@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <Board/>
+    <!-- <Chioce/> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Board from './components/Board'
+// import Chioce from './components/Chioce'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Board,
+    // Chioce
   }
 }
 </script>
@@ -23,6 +25,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
